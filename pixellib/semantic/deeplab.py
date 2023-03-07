@@ -17,7 +17,7 @@ from tensorflow.python.keras.layers import Conv2D
 from tensorflow.python.keras.layers import DepthwiseConv2D
 from tensorflow.python.keras.layers import ZeroPadding2D
 from tensorflow.python.keras.layers import GlobalAveragePooling2D
-from tensorflow.python.keras.utils.layer_utils import get_source_inputs
+from tensorflow.python.keras.utils import get_source_inputs
 from tensorflow.keras import backend as K
 
 config = tf.compat.v1.ConfigProto()
