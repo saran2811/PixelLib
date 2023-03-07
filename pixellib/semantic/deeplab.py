@@ -4,20 +4,20 @@ from __future__ import print_function
 
 import tensorflow as tf
 
-from tensorflow.python.keras.models import Model
-from tensorflow.python.keras import layers
-from tensorflow.python.keras.layers import Input
-from tensorflow.python.keras.layers import Lambda
-from tensorflow.python.keras.layers import Activation
-from tensorflow.python.keras.layers import Concatenate
-from tensorflow.python.keras.layers import Add
-from tensorflow.python.keras.layers import Dropout
-from tensorflow.python.keras.layers import BatchNormalization
-from tensorflow.python.keras.layers import Conv2D
-from tensorflow.python.keras.layers import DepthwiseConv2D
-from tensorflow.python.keras.layers import ZeroPadding2D
-from tensorflow.python.keras.layers import GlobalAveragePooling2D
-from tensorflow.python.keras.utils.layer_utils import get_source_inputs
+from tensorflow.keras.models import Model
+from tensorflow.keras import layers
+from tensorflow.keras.layers import Input
+from tensorflow.keras.layers import Lambda
+from tensorflow.keras.layers import Activation
+from tensorflow.keras.layers import Concatenate
+from tensorflow.keras.layers import Add
+from tensorflow.keras.layers import Dropout
+from tensorflow.keras.layers import BatchNormalization
+from tensorflow.keras.layers import Conv2D
+from tensorflow.keras.layers import DepthwiseConv2D
+from tensorflow.keras.layers import ZeroPadding2D
+from tensorflow.keras.layers import GlobalAveragePooling2D
+from tensorflow.keras.utils.layer_utils import get_source_inputs
 from tensorflow.keras import backend as K
 
 config = tf.compat.v1.ConfigProto()
